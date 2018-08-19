@@ -3,13 +3,22 @@ import { Layout, Menu as _Menu } from 'antd';
 
 export const Header = styled(Layout.Header)`
   background: #fff;
-  padding: 0;
+  display: flex;
+  justify-content: space-between;
   height: 48px;
   line-height: 48px;
+  padding: 0;
+`;
+
+export const Logo = styled.div`
+  font-size: 1.5em;
+  font-weight: 600;
+  padding: 0 16px;
+  &:first-letter {
+  }
 `;
 
 export const Menu = styled(_Menu)`
-  float: right;
   line-height: 48px;
   border-bottom: none;
 
