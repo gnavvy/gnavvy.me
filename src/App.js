@@ -3,7 +3,7 @@ import React, { PureComponent } from 'react';
 import { Layout } from 'antd';
 import { Canvas } from './components/container';
 import { Header, Logo, Menu, MenuItem } from './components/header';
-import { Sider, SocialButton, VerticleMenu } from './components/sider';
+import { Sider, SocialButton } from './components/sider';
 import { Content, Carousel } from './components/content';
 
 const PAGE = {

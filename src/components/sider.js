@@ -1,5 +1,4 @@
 import styled from 'styled-components';
-import { Layout, Menu as _Menu } from 'antd';
 
 export const Sider = styled.div`
   bottom: 12vh;
