@@ -16,18 +16,12 @@ export const Canvas = styled.div`
   height: 100vh;
 `;
 
-export const Sider = styled.div`
-  width: 20vw;
+export const SidePanel = styled.div`
+  width: 0vw;
   padding: 24px;
-  border: solid 1px;
+  border: dashed 1px;
 `;
 
 export const Content = styled.div`
-  width: 80vw;
-  padding: 24px;
-  border: solid 1px;
-`;
-
-export const NavItem = styled.div`
-  border: solid 1px;
+  width: 100vw;
 `;

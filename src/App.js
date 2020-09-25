@@ -1,26 +1,17 @@
 import React from 'react';
-import { Canvas, Content, GlobalStyle, Sider, NavItem } from './components';
+import { Canvas, Content, GlobalStyle, SidePanel } from './components';
 
-export const Nav = () => {
-  return (
-    <>
-      <NavItem>About</NavItem>
-      <NavItem>Brain Dump</NavItem>
-      <NavItem>Creating Docs</NavItem>
-      <NavItem>FAQ</NavItem>
-    </>
-  );
-};
+import { KnowledgeMap } from './components/knowledge-map';
 
 export const App = () => {
   return (
     <>
       <GlobalStyle />
       <Canvas>
-        <Sider>
-          <Nav />
-        </Sider>
-        <Content>Content</Content>
+        <SidePanel />
+        <Content>
+          <KnowledgeMap />
+        </Content>
       </Canvas>
     </>
   );
