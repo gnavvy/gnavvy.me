@@ -3,33 +3,12 @@
  * and scoped locally.
  */
 
- .features {
-  display: flex;
-  align-items: center;
-  padding: 1rem 0;
-  width: 100%;
+ .content {
+  margin: 1rem 2rem;
+  width: 95%;
 }
 
-.featureSvg {
-  height: 200px;
-  width: 200px;
+.avatar {
+  height: 160px;
+  width: 160px;
 }
-
-/* .heroBanner {
-  padding: 4rem 0;
-  text-align: center;
-  position: relative;
-  overflow: hidden;
-}
-
-@media screen and (max-width: 996px) {
-  .heroBanner {
-    padding: 2rem;
-  }
-}
-
-.buttons {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-} */

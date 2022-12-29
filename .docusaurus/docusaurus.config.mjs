@@ -43,16 +43,10 @@ export default {
     "navbar": {
       "title": "yvv.sparks()",
       "logo": {
-        "alt": "My Site Logo",
-        "src": "img/logo.svg"
+        "alt": "Logo",
+        "src": "img/pixel.png"
       },
       "items": [
-        {
-          "type": "doc",
-          "docId": "intro",
-          "position": "left",
-          "label": "Tutorial"
-        },
         {
           "to": "/blog",
           "label": "Blog",
@@ -60,11 +54,6 @@ export default {
         }
       ],
       "hideOnScroll": false
-    },
-    "footer": {
-      "style": "dark",
-      "links": [],
-      "copyright": "Copyright © 2022 gnavvy.me"
     },
     "prism": {
       "theme": {
