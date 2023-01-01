@@ -52,19 +52,16 @@ const config = {
       }),
     ],
   ],
-
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
         title: 'yvv.sparks()',
         logo: {
-          alt: 'Logo',
+          alt: 'avatar',
           src: 'img/pixel.png',
+          href: 'http://gnavvy.me/',
         },
-        items: [
-          {to: '/blog', label: 'Blog', position: 'left'}
-        ],
       },
       prism: {
         theme: lightCodeTheme,
